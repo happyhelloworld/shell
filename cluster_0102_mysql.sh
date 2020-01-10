@@ -46,6 +46,8 @@ enstat=`nmcli device status | grep '连接的' | awk '{print $1}'`
 keep=`rpm -qa | grep keepalived`
 if [ -z "$keep" ];then
     yum -y install keepalived-1.3.5-16.el7.x86_64
+    ##cd /usr/local/src/rpm
+    ##rpm -ivh keepalived-1.3.5-16.el7.x86_64.rpm net-snmp-agent-libs-5.7.2-43.el7.x86_64.rpm net-snmp-libs-5.7.2-43.el7.x86_64.rpm
 fi
 
 

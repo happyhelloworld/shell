@@ -28,7 +28,7 @@ if [[ "$chk_mariadb" != "" ]];then
 fi
 
 
-cd /usr/local/src/mysql-com/rpm
+cd /usr/local/src/rpm
 rpm -ivh mysql-community-libs-5.7.23-1.el7.x86_64.rpm \
 mysql-community-libs-compat-5.7.23-1.el7.x86_64.rpm \
 mysql-community-client-5.7.23-1.el7.x86_64.rpm \
