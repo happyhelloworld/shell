@@ -1,4 +1,4 @@
-## Install   || sh mysql.sh 
+### Install   || sh mysql.sh 
 ## excute scripts mysql.sh
 ##
 ## uninstall || sh uninstall.sh
