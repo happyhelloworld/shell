@@ -2,7 +2,7 @@
 ### excute scripts mysql.sh
 <br></br>
 ### uninstall || sh uninstall.sh
-### uninstall scripts uninstall.sh || Only testi, Prod Warning!!!
+### uninstall scripts uninstall.sh || Only test, Prod Warning!!!
 <br></br>
 ### Configuration
 ### myssh_sftp_linux.sh || file and rpm exist root dir
